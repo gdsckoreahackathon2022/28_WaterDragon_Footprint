@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="challenges_do">
+        <item>사용하지 않은 콘센트 빼기</item>
+        <item>용기내!챌린지</item>
+        <item>챌린지3</item>
+        <item>챌린지4</item>
+        <item>챌린지5</item>
+    </string-array>
+
+    <string-array name="challenge_finished_badge">
+        <item>인즏까지 완료한 챌린지</item>
+    </string-array>
+</resources>

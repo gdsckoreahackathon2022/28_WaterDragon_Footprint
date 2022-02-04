@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/dailyChallengeBtn"
+        android:layout_width="0dp"
+        android:layout_height="120dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="45dp"
+        android:background="@drawable/daily_challenge_edge"
+        android:paddingLeft="20dp"
+        android:paddingTop="17dp"
+        android:text="오늘의 챌린지"
+        android:textColor="#AAAAAA"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/dailyChallengeText"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="15dp"
+        android:background="#00FFFFFF"
+        android:gravity="center_vertical"
+        android:text="사용하지 않는 콘센트 빼기!\n함께 참여해볼까요?"
+        android:textColor="#313131"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@id/dailyChallengeBtn"
+        app:layout_constraintEnd_toEndOf="@id/dailyChallengeBtn"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="@id/dailyChallengeBtn"
+        app:layout_constraintTop_toTopOf="@id/dailyChallengeBtn"
+        app:layout_constraintVertical_bias="0.0"
+        tools:background="#00FFFFFF" />
+
+    <Button
+        android:id="@+id/mainChallengeBtn1"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginLeft="20dp"
+        android:backgroundTint="#537BC4"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:text="용기내!\n챌린지"
+        android:textStyle="bold"
+        app:cornerRadius="100dp"
+        app:layout_constraintBottom_toTopOf="@+id/mainChallengeBtn3"
+        app:layout_constraintEnd_toStartOf="@+id/mainChallengeBtn2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dailyChallengeBtn" />
+
+    <Button
+        android:id="@+id/mainChallengeBtn3"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginLeft="20dp"
+        android:backgroundTint="#87A3D6"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:text="대중교통\n이용하기"
+        android:textStyle="bold"
+        app:cornerRadius="100dp"
+        app:layout_constraintBottom_toTopOf="@+id/mainChallengeBtn5"
+        app:layout_constraintEnd_toStartOf="@+id/mainChallengeBtn4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mainChallengeBtn1" />
+
+    <Button
+        android:id="@+id/mainChallengeBtn5"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="5dp"
+        android:backgroundTint="#537BC4"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:text="용기내!\n챌린지"
+        android:textStyle="bold"
+        app:cornerRadius="100dp"
+        app:layout_constraintBottom_toTopOf="@+id/mainMenu"
+        app:layout_constraintEnd_toStartOf="@+id/viewMoreChallengeBtn"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mainChallengeBtn3" />
+
+    <Button
+        android:id="@+id/mainChallengeBtn2"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginRight="20dp"
+        android:backgroundTint="#87A3D6"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:text="텀블러\n사용하기"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:cornerRadius="100dp"
+        app:layout_constraintBottom_toTopOf="@+id/mainChallengeBtn4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/mainChallengeBtn1"
+        app:layout_constraintTop_toBottomOf="@id/dailyChallengeBtn"
+        tools:ignore="DuplicateClickableBoundsCheck" />
+
+    <Button
+        android:id="@+id/mainChallengeBtn4"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginRight="20dp"
+        android:backgroundTint="#537BC4"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:text="샤워시간\n줄이기"
+        android:textStyle="bold"
+        app:cornerRadius="100dp"
+        app:layout_constraintBottom_toTopOf="@+id/viewMoreChallengeBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/mainChallengeBtn3"
+        app:layout_constraintTop_toBottomOf="@+id/mainChallengeBtn2" />
+
+    <Button
+        android:id="@+id/viewMoreChallengeBtn"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="5dp"
+        android:backgroundTint="#ACC236"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:text="다른 챌린지\n보기"
+        android:textColor="#343A10"
+        android:textStyle="bold"
+        app:cornerRadius="100dp"
+        app:layout_constraintBottom_toTopOf="@+id/mainMenu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/mainChallengeBtn5"
+        app:layout_constraintTop_toBottomOf="@+id/mainChallengeBtn4" />
+
+    <LinearLayout
+        android:id="@+id/mainMenu"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:minWidth="0dp"
+        android:minHeight="0dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageButton
+            android:id="@+id/homeMenuBtn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/mainmenu_selected_edge"
+            android:clickable="false"
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            app:srcCompat="@drawable/home_icon"
+            app:tint="@color/white"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <ImageButton
+            android:id="@+id/approvalMenuBtn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/mainmenu_edge"
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            app:srcCompat="@drawable/approval_icon"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <ImageButton
+            android:id="@+id/rankingMenuBtn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/mainmenu_edge"
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            app:srcCompat="@drawable/ranking_icon"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <ImageButton
+            android:id="@+id/mypageMenuBtn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/mainmenu_edge"
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            app:srcCompat="@drawable/mypage_icon"
+            tools:ignore="SpeakableTextPresentCheck" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

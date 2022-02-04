@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RankingActivity">
+
+
+    <TextView
+        android:id="@+id/textView39"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="명예의 전당"
+        android:textColor="#000000"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/rankingMy"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.07"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/rankingUnit1"
+        android:layout_width="0dp"
+        android:layout_height="65dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/border"
+        android:gravity="center"
+        android:padding="10dp"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.842"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView39"
+        app:layout_constraintVertical_bias="0.032" />
+
+    <TextView
+        android:id="@+id/rankingnickname1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="닉네임1"
+        android:textColor="#000000"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="@+id/rankingUnit1"
+        app:layout_constraintEnd_toEndOf="@+id/rankingUnit1"
+        app:layout_constraintHorizontal_bias="0.500"
+        app:layout_constraintStart_toStartOf="@+id/rankingUnit1"
+        app:layout_constraintTop_toTopOf="@+id/rankingUnit1" />
+
+    <ImageView
+        android:id="@+id/rankingMedal1"
+        android:layout_width="55dp"
+        android:layout_height="58dp"
+        app:layout_constraintBottom_toBottomOf="@+id/rankingUnit1"
+        app:layout_constraintEnd_toEndOf="@+id/rankingUnit1"
+        app:layout_constraintHorizontal_bias="0.892"
+        app:layout_constraintStart_toEndOf="@+id/rankingnickname1"
+        app:layout_constraintTop_toTopOf="@+id/rankingUnit1"
+        app:srcCompat="@drawable/badge_model" />
+
+    <TextView
+        android:id="@+id/rankingCount1"
+        android:layout_width="39dp"
+        android:layout_height="33dp"
+        android:gravity="center"
+        android:text="n"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/rankingMedal1"
+        app:layout_constraintEnd_toEndOf="@+id/rankingMedal1"
+        app:layout_constraintHorizontal_bias="0.562"
+        app:layout_constraintStart_toStartOf="@+id/rankingMedal1"
+        app:layout_constraintTop_toTopOf="@+id/rankingMedal1"
+        app:layout_constraintVertical_bias="0.208" />
+
+
+    <TextView
+        android:id="@+id/rankingUnit2"
+        android:layout_width="0dp"
+        android:layout_height="65dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/border"
+        android:gravity="center"
+        android:padding="10dp"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.473"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rankingUnit1"
+        app:layout_constraintVertical_bias="0.005" />
+
+    <TextView
+        android:id="@+id/rankingnickname2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="닉네임2"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="@+id/rankingUnit2"
+        app:layout_constraintEnd_toEndOf="@+id/rankingUnit2"
+        app:layout_constraintHorizontal_bias="0.500"
+        app:layout_constraintStart_toStartOf="@+id/rankingUnit2"
+        app:layout_constraintTop_toTopOf="@+id/rankingUnit2" />
+
+    <ImageView
+        android:id="@+id/rankingMedal2"
+        android:layout_width="55dp"
+        android:layout_height="58dp"
+        app:layout_constraintBottom_toBottomOf="@+id/rankingUnit2"
+        app:layout_constraintEnd_toEndOf="@+id/rankingUnit2"
+        app:layout_constraintHorizontal_bias="0.892"
+        app:layout_constraintStart_toEndOf="@+id/rankingnickname2"
+        app:layout_constraintTop_toTopOf="@+id/rankingUnit2"
+        app:srcCompat="@drawable/badge_model" />
+
+    <TextView
+        android:id="@+id/rankingCount2"
+        android:layout_width="39dp"
+        android:layout_height="33dp"
+        android:gravity="center"
+        android:text="n"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/rankingMedal2"
+        app:layout_constraintEnd_toEndOf="@+id/rankingMedal2"
+        app:layout_constraintHorizontal_bias="0.562"
+        app:layout_constraintStart_toStartOf="@+id/rankingMedal2"
+        app:layout_constraintTop_toTopOf="@+id/rankingMedal2"
+        app:layout_constraintVertical_bias="0.208" />
+
+    <TextView
+        android:id="@+id/rankingUnit3"
+        android:layout_width="0dp"
+        android:layout_height="65dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/border"
+        android:gravity="center"
+        android:padding="10dp"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.526"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rankingUnit2"
+        app:layout_constraintVertical_bias="0.009" />
+
+    <TextView
+        android:id="@+id/rankingnickname3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="닉네임3"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="@+id/rankingUnit3"
+        app:layout_constraintEnd_toEndOf="@+id/rankingUnit2"
+        app:layout_constraintHorizontal_bias="0.500"
+        app:layout_constraintStart_toStartOf="@+id/rankingUnit3"
+        app:layout_constraintTop_toTopOf="@+id/rankingUnit3" />
+
+    <ImageView
+        android:id="@+id/rankingMedal3"
+        android:layout_width="55dp"
+        android:layout_height="58dp"
+        app:layout_constraintBottom_toBottomOf="@+id/rankingUnit3"
+        app:layout_constraintEnd_toEndOf="@+id/rankingUnit3"
+        app:layout_constraintHorizontal_bias="0.892"
+        app:layout_constraintStart_toEndOf="@+id/rankingnickname3"
+        app:layout_constraintTop_toTopOf="@+id/rankingUnit3"
+        app:srcCompat="@drawable/badge_model" />
+
+    <TextView
+        android:id="@+id/rankingCount3"
+        android:layout_width="39dp"
+        android:layout_height="33dp"
+        android:gravity="center"
+        android:text="n"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/rankingMedal3"
+        app:layout_constraintEnd_toEndOf="@+id/rankingMedal3"
+        app:layout_constraintHorizontal_bias="0.562"
+        app:layout_constraintStart_toStartOf="@+id/rankingMedal3"
+        app:layout_constraintTop_toTopOf="@+id/rankingMedal3"
+        app:layout_constraintVertical_bias="0.208" />
+
+    <TextView
+        android:id="@+id/rankingUnit4"
+        android:layout_width="0dp"
+        android:layout_height="65dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/border"
+        android:gravity="center"
+        android:padding="10dp"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.473"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rankingUnit3"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/rankingnickname4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="닉네임4"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="@+id/rankingUnit4"
+        app:layout_constraintEnd_toEndOf="@+id/rankingUnit4"
+        app:layout_constraintHorizontal_bias="0.500"
+        app:layout_constraintStart_toStartOf="@+id/rankingUnit4"
+        app:layout_constraintTop_toTopOf="@+id/rankingUnit4" />
+
+    <ImageView
+        android:id="@+id/rankingMedal4"
+        android:layout_width="55dp"
+        android:layout_height="58dp"
+        app:layout_constraintBottom_toBottomOf="@+id/rankingUnit4"
+        app:layout_constraintEnd_toEndOf="@+id/rankingUnit4"
+        app:layout_constraintHorizontal_bias="0.892"
+        app:layout_constraintStart_toEndOf="@+id/rankingnickname4"
+        app:layout_constraintTop_toTopOf="@+id/rankingUnit4"
+        app:srcCompat="@drawable/badge_model" />
+
+    <TextView
+        android:id="@+id/rankingCount4"
+        android:layout_width="39dp"
+        android:layout_height="33dp"
+        android:gravity="center"
+        android:text="n"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/rankingMedal4"
+        app:layout_constraintEnd_toEndOf="@+id/rankingMedal4"
+        app:layout_constraintHorizontal_bias="0.562"
+        app:layout_constraintStart_toStartOf="@+id/rankingMedal4"
+        app:layout_constraintTop_toTopOf="@+id/rankingMedal4"
+        app:layout_constraintVertical_bias="0.208" />
+
+    <TextView
+        android:id="@+id/rankingUnit5"
+        android:layout_width="0dp"
+        android:layout_height="65dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/border"
+        android:gravity="center"
+        android:padding="10dp"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/rankingMy"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.526"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rankingUnit4"
+        app:layout_constraintVertical_bias="0.057" />
+
+    <TextView
+        android:id="@+id/rankingnickname5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="닉네임5"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="@+id/rankingUnit5"
+        app:layout_constraintEnd_toEndOf="@+id/rankingUnit5"
+        app:layout_constraintHorizontal_bias="0.500"
+        app:layout_constraintStart_toStartOf="@+id/rankingUnit5"
+        app:layout_constraintTop_toTopOf="@+id/rankingUnit5" />
+
+    <ImageView
+        android:id="@+id/rankingMedal5"
+        android:layout_width="55dp"
+        android:layout_height="58dp"
+        app:layout_constraintBottom_toBottomOf="@+id/rankingUnit5"
+        app:layout_constraintEnd_toEndOf="@+id/rankingUnit5"
+        app:layout_constraintHorizontal_bias="0.892"
+        app:layout_constraintStart_toEndOf="@+id/rankingnickname5"
+        app:layout_constraintTop_toTopOf="@+id/rankingUnit5"
+        app:srcCompat="@drawable/badge_model" />
+
+    <TextView
+        android:id="@+id/rankingCount5"
+        android:layout_width="39dp"
+        android:layout_height="33dp"
+        android:gravity="center"
+        android:text="n"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/rankingMedal5"
+        app:layout_constraintEnd_toEndOf="@+id/rankingMedal5"
+        app:layout_constraintHorizontal_bias="0.562"
+        app:layout_constraintStart_toStartOf="@+id/rankingMedal5"
+        app:layout_constraintTop_toTopOf="@+id/rankingMedal5"
+        app:layout_constraintVertical_bias="0.208" />
+
+    <TextView
+        android:id="@+id/rankingMy"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/find_result_background"
+        android:gravity="center_horizontal|center_vertical"
+        android:padding="10dp"
+        android:text="내 순위: N위 | 상위 N% 발자국이에요!"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toTopOf="@id/mainMenu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/mainMenu"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:minWidth="0dp"
+        android:minHeight="0dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageButton
+            android:id="@+id/homeMenuBtn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/mainmenu_edge"
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            app:srcCompat="@drawable/home_icon"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <ImageButton
+            android:id="@+id/approvalMenuBtn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/mainmenu_edge"
+            android:clickable="false"
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            app:srcCompat="@drawable/approval_icon"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <ImageButton
+            android:id="@+id/rankingMenuBtn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/mainmenu_selected_edge"
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            app:srcCompat="@drawable/ranking_icon"
+            app:tint="@color/white"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <ImageButton
+            android:id="@+id/mypageMenuBtn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/mainmenu_edge"
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            app:srcCompat="@drawable/mypage_icon"
+            tools:ignore="SpeakableTextPresentCheck" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

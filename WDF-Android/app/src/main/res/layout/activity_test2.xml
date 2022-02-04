@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Test2Activity">
+
+    <Button
+        android:id="@+id/getChallengeBtn"
+        android:layout_width="85dp"
+        android:layout_height="48dp"
+        android:backgroundTint="@color/main_blue"
+        android:text="전체 챌린지 가져오기 테스트"
+        android:textSize="11dp" />
+
+    <Button
+        android:id="@+id/uploadPostBtn"
+        android:layout_width="85dp"
+        android:layout_height="48dp"
+        android:backgroundTint="@color/main_blue"
+        android:text="포스트 올리기 테스트"
+        android:textSize="11dp" />
+
+    <Button
+        android:id="@+id/getPostCountBtn"
+        android:layout_width="85dp"
+        android:layout_height="48dp"
+        android:backgroundTint="@color/main_blue"
+        android:text="전체 참여횟수 가져오기 테스트"
+        android:textSize="11dp" />
+    <Button
+        android:id="@+id/AvailableIdBtn"
+        android:layout_width="85dp"
+        android:layout_height="48dp"
+        android:backgroundTint="@color/main_blue"
+        android:text="아이디 중복확인 테스트"
+        android:textSize="11dp" />
+    <Button
+        android:id="@+id/AvailableEmailBtn"
+        android:layout_width="85dp"
+        android:layout_height="48dp"
+        android:backgroundTint="@color/main_blue"
+        android:text="이메일 중복확인  테스트"
+        android:textSize="11dp" />
+    <Button
+        android:id="@+id/AvailableNickBtn"
+        android:layout_width="85dp"
+        android:layout_height="48dp"
+        android:backgroundTint="@color/main_blue"
+        android:text="닉네임 중복확인 테스트"
+        android:textSize="11dp" />
+</LinearLayout>
