@@ -19,36 +19,6 @@
 ## Architecture
 <img src="https://user-images.githubusercontent.com/68148196/152620025-1700a124-d4a3-45a7-8720-f4b361ebbe55.png" width=750 height=250>
 
-
-<br></br>
-## 디렉토리 구조
-**[Android]**
-```bash
-├── data
-│   ├── train
-│   ├── test
-│   └── validation
-├── code
-│   ├── train.py
-│   ├── classify.py
-│   ├── model.py
-│   └── dataset.py
-└── run.sh
-``` 
-**[Server]**
-```bash
-├── data
-│   ├── train
-│   ├── test
-│   └── validation
-├── code
-│   ├── train.py
-│   ├── classify.py
-│   ├── model.py
-│   └── dataset.py
-└── run.sh
-``` 
-
 <br></br>
 ## Contributor
 | 신민선🐲 | 이지원🐲 | 이현지🐲 | 전채연🐲 |
