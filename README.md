@@ -23,7 +23,7 @@
 <img src="https://user-images.githubusercontent.com/68148196/152620025-1700a124-d4a3-45a7-8720-f4b361ebbe55.png" width=750 height=250>
 
 <br></br>
-## Contributor🐲
+## Contributor[🐲](https://github.com/nohorang-horangteam)
 | 신민선🐲 | 이지원🐲 | 이현지🐲 | 전채연🐲 |
 | ------ | ------ | ------ |------ |
 | [@flora](https://github.com/flora7883) | [@jioniy](https://github.com/jioniy) | [@hyunjiLee123](https://github.com/hyunjiLee123) | [@b1urrrr](https://github.com/b1urrrr) |
