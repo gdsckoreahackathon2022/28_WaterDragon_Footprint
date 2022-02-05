@@ -8,8 +8,11 @@ import android.os.Bundle
 import android.view.View
 import android.widget.AdapterView
 import android.widget.Button
+import android.widget.ImageView
+import android.widget.TextView
 import androidx.annotation.RequiresApi
 import kr.co.nohorang.suryongfootprint.databinding.ActivityMypageMainBinding
+import org.w3c.dom.Text
 
 class MypageMainActivity : AppCompatActivity() {
     val binding by lazy { ActivityMypageMainBinding.inflate(layoutInflater) }
@@ -102,18 +105,34 @@ class MypageMainActivity : AppCompatActivity() {
 
         //완료전 승인대기 완료 버튼
         val color = getColor(R.color.btn_grey)
-
+        val whitecolor=getColor(R.color.white)
         val button1: Button = findViewById(R.id.challenge_ing)
+        val button2: Button = findViewById(R.id.challenge_approval)
+        val button3: Button = findViewById(R.id.challenge_finish)
+        val text1: TextView =findViewById(R.id.date1)
+        val text2: TextView =findViewById(R.id.date2)
+        val print1:ImageView=findViewById(R.id.imageView)
+        val print2:ImageView=findViewById(R.id.imageView2)
+        val print3:ImageView=findViewById(R.id.imageView3)
+        val print4:ImageView=findViewById(R.id.imageView4)
+        val print5:ImageView=findViewById(R.id.imageView5)
         button1.setOnClickListener {
             button1.setBackgroundColor(color)
+            button2.setBackgroundColor(whitecolor)
+            button3.setBackgroundColor(whitecolor)
+
         }
-        val button2: Button = findViewById(R.id.challenge_approval)
+
         button2.setOnClickListener {
             button2.setBackgroundColor(color)
+            button1.setBackgroundColor(whitecolor)
+            button3.setBackgroundColor(whitecolor)
         }
-        val button3: Button = findViewById(R.id.challenge_finish)
+
         button3.setOnClickListener {
             button3.setBackgroundColor(color)
+            button1.setBackgroundColor(whitecolor)
+            button2.setBackgroundColor(whitecolor)
         }
         //완료한 챌린지 불러오는거 연결 필요
 //        binding.dropdown.adapter = adapter
